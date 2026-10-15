@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": ".",
+    //adicionado ignoreDeprecations pois baseUrl não é mais suportado no tsconfig.json, mas é suportado no jsconfig.json
+    "ignoreDeprecations": "6.0"
   }
 }
